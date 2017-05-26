@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-redux",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "ISC",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
