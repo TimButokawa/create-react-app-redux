@@ -1,7 +1,13 @@
 {
   "name": "create-react-app-redux",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimButokawa/create-react-app-redux"
+  },
+  "homepage": "https://github.com/TimButokawa/create-react-app-redux",
   "license": "ISC",
+  "keywords": [],
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
