@@ -1,5 +1,6 @@
 ## Create React App + Redux
 __Starter app with simple demo shopping cart__
+
 Create-react-app with react-redux, redux-thunk and redux-devtools added in
 
 - [redux](http://redux.js.org/)
