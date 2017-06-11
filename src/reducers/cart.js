@@ -2,7 +2,7 @@ import {
   ADD_TO_CART,
   REMOVE_FROM_CART,
   REMOVE_ALL_FROM_CART
-} from '../actions';
+} from '../constants';
 
 const initialState = [];
 
