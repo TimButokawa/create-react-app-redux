@@ -4,24 +4,18 @@ import {
   REMOVE_ALL_FROM_CART
 } from '../actions';
 
-const initialState = {
-  items: []
-};
+const initialState = [];
 
 export default function cart(state = initialState, payload) {
   switch(payload.type) {
     case ADD_TO_CART:
-      return {
-        items:[...state.items, payload.item]
-      };
+      return [...state, payload.item];
 
     case REMOVE_FROM_CART:
-      return {
-        items: [
-          ...state.items.slice(0, payload.index),
-          ...state.items.slice(payload.index + 1)
-        ]
-      };
+      return [
+        ...state.slice(0, payload.index),
+        ...state.slice(payload.index + 1)
+      ];
 
     case REMOVE_ALL_FROM_CART:
       return initialState;
