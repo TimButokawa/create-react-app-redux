@@ -5,7 +5,7 @@ import * as Actions from '../../actions';
 
 const mapStateToProps = state => {
   return {
-    items: state.cart.items
+    items: state.cart
   };
 };
 
